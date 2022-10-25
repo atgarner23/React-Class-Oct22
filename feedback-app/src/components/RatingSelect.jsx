@@ -29,7 +29,7 @@ function RatingSelect({ select }) {
                     name='rating'
                     value='2'
                     onChange={handleChange}
-                    checked={selected === 1}
+                    checked={selected === 2}
                 />
                 <label htmlFor="num2">2</label>
             </li>
@@ -40,7 +40,7 @@ function RatingSelect({ select }) {
                     name='rating'
                     value='3'
                     onChange={handleChange}
-                    checked={selected === 1}
+                    checked={selected === 3}
                 />
                 <label htmlFor="num3">3</label>
             </li>
@@ -51,7 +51,7 @@ function RatingSelect({ select }) {
                     name='rating'
                     value='4'
                     onChange={handleChange}
-                    checked={selected === 1}
+                    checked={selected === 4}
                 />
                 <label htmlFor="num4">4</label>
             </li>
@@ -62,7 +62,7 @@ function RatingSelect({ select }) {
                     name='rating'
                     value='5'
                     onChange={handleChange}
-                    checked={selected === 1}
+                    checked={selected === 5}
                 />
                 <label htmlFor="num5">5</label>
             </li>
